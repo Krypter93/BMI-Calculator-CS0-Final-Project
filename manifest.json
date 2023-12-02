@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Body Mass Index Calculator",
+    "description": "A helpful calculator that allows to know your body mass index",
+    "version": "1.0",
+    "action": {
+      "default_popup": "bmi.html",
+      "default_icon": "bmi.png"
+    } 
+  }

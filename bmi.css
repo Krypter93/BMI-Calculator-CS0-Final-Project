@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    width: 320px;
+    height: 600px;
+}
+
+body{
+    background-color: #913175
+}
+
+.head #main-title{
+    text-align: center;
+    margin-top: 25px;
+    color: #F2F2F2;
+    font-size: 2.8em;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 0px 1px 3px #F2F2F2;
+}
+
+
+.container .data{
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f2f2f265;
+    border: 1px solid rgba(255, 255, 255, 0.319);
+    box-shadow: 1px 0px 5px #F2F2F2;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.data #input1{
+    margin-top: 10px;
+} 
+
+#input1 label{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #231e1e;
+    
+}
+
+#input1 #weight{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.data #input2{
+    margin-top: 30px;
+    margin-left: 2px;
+}
+
+
+#input2 label{
+    font-size: 20px;
+    color: #231e1e;
+    font-family: 'Roboto Slab', serif;
+}
+
+#input2 #height{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 55px;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#input2 #height2{
+    text-align: center;
+    padding: 10px;
+    width: 55px;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.data #btn{
+    margin-top: 30px;
+}
+
+#btn #calc{
+    margin-left: 5px;
+    background-color: rgba(242, 242, 242, 0.859);
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #231e1e;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+#btn #clear{
+    margin-left: 8px;
+    margin-top: -10px;
+    background-color: rgba(242, 242, 242, 0.859);
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #231e1e;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+}
+
+#btn #calc:hover{
+    background-color: #913175;
+    color: #F2F2F2;
+    cursor: pointer;
+}
+
+#btn #clear:hover{
+    background-color: #913175;
+    color: #F2F2F2;
+    cursor: pointer;
+}
+
+.container .result{
+    margin: 5px auto;
+    margin-top: -30px;
+    text-align: center;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5em;
+    color: #F2F2F2;
+    border-radius: 5px;
+    background-color: rgba(108, 105, 105, 0.607);
+    box-shadow: 1px 0px 5px #F2F2F2;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="shortcut icon" href="bmi.png" type="image/x-icon">
+    <link rel="stylesheet" href="bmi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="head">
+        <h1 id="main-title">Body Mass Index Calculator</h1>
+    </header>
+
+    <main class="container">
+        <form class="data">
+            <div id="input1">
+                <label for="weight">Weight</label><br>
+                <input type="text" id="weight" placeholder="Lbs"  required>
+            </div>
+
+            <div id="input2">
+                <label for="height">Height</label><br>
+                <input type="text" id="height" placeholder="Feet" required>
+                <input type="text" id="height2" placeholder="Inches" required>
+            </div>
+            
+            <div id="btn">
+                <button type="button" id="calc">Calculate</button>
+            </div>
+
+            <div id="btn">
+                <button type="button" id="clear">Clear</button>
+            </div>
+            
+        </form><br>
+
+        <div class="result"></div>
+    </main>
+
+    <script src="bmi.js"></script>
+</body>
+</html>
